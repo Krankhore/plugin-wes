@@ -154,6 +154,7 @@ class wes extends eqLogic {
 			$cmd->setType('info');
 			$cmd->setSubType('numeric');
 			$cmd->setLogicalId('tension');
+			$cmd->setUnite("V");
 			$cmd->setIsVisible(1);
 			$cmd->setEventOnly(1);
 			$cmd->save();
@@ -285,6 +286,7 @@ class wes extends eqLogic {
 			$cmd->setType('info');
 			$cmd->setSubType('numeric');
 			$cmd->setLogicalId('tension');
+			$cmd->setUnite("V");
 			$cmd->setIsVisible(1);
 			$cmd->setEventOnly(1);
 			$cmd->save();
