@@ -78,7 +78,8 @@ class wes_compteur extends eqLogic {
 			$nbimpulsion->setEventOnly(1);
 			$nbimpulsion->save();
 		}
-		if ( ! is_object($nbimpulsionjour) ) {
+				$nbimpulsionjour = $this->getCmd(null, 'nbimpulsionjour');
+				if ( ! is_object($nbimpulsionjour) ) {
             $nbimpulsionjour = new wes_compteurCmd();
 			$nbimpulsionjour->setName('Nombre d impulsion pour la journée');
 			$nbimpulsionjour->setEqLogic_id($this->getId());
