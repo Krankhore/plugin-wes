@@ -23,11 +23,11 @@ function addCmdToTable(_cmd) {
         tr += '<td>';
         tr += '</td>';
         tr += '<td>';
-        if (init(_cmd.logicalId) == 'reel' || init(_cmd.logicalId) == 'debit' || init(_cmd.logicalId) == 'intensite' || init(_cmd.logicalId) == 'puissance') {
+//        if (init(_cmd.logicalId) == 'reel' || init(_cmd.logicalId) == 'debit' || init(_cmd.logicalId) == 'intensite' || init(_cmd.logicalId) == 'puissance') {
 			tr += '<input class="cmdAttr form-control input-sm" data-l1key="unite" style="width : 90px;" placeholder="{{Unite}}">';
-		} else {
-			tr += '<input type=hidden class="cmdAttr form-control input-sm" data-l1key="unite" value="">';
-		}
+//		} else {
+//			tr += '<input type=hidden class="cmdAttr form-control input-sm" data-l1key="unite" value="">';
+//		}
         tr += '</td>';
         tr += '<td>';
         tr += '<span><input type="checkbox" class="cmdAttr" data-l1key="isHistorized"/> {{Historiser}}<br/></span>';
