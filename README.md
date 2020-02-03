@@ -1,4 +1,5 @@
 # plugin-wes
 
-Plugin Jeedom pour gérer la carte WES
-Adaptation pour jeedom V4
+Plugin Jeedom/Nextdom pour gérer la carte WES
+
+Adaptation faite pour le Jeedom V4

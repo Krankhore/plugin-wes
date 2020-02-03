@@ -4,12 +4,13 @@ Ce plugin permet de gérer les cartes WES.
 Initialement, ce plugin a été créé pour connecter les WES.
 
 === Données visibles sur le Dashboard : ===
-* '''les entrée temperatures '''
-* '''les entrée numeriques '''
-* '''les relai '''
+* '''les entrées temperatures 1wire '''
+* '''les entrées numeriques '''
+* '''les relais '''
 * '''les compteurs d'impulsions'''
 * '''les pinces ampère-métriques'''
 * '''les téléinfos'''
+* '''les entrées analogiquess'''
 
 == Installation/Paramétrage ==
 Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer sur '''Plugins / Protocole domotique / wes'''

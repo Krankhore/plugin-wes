@@ -1,12 +1,15 @@
-WARNING: Detail complet des mises à jour sur https://github.com/guenneguezt/plugin-wes/commits/master[Historique Commit]
+Detail complet des mises à jour sur https://github.com/Krankhore/plugin-wes/commits/
 
-Liste des évolutions majeures de la version courante :
+Liste des évolutions majeures de la version courante 2020-03 :
 
 - Modification pour compatibilité Jeedom V4
 - Ajout information tension 
-- Ajout information nombre impulsion du jour pour les compteurs
+- Ajout information nombre impulsion du jour sur les compteurs
+
 
 Anciennes évolutions :
+-  Modification pour compatibilité Jeedom V3
+-  Plus de suivi de version
 
 - - Correction de la gestion des entrées analogiques.
 - Ajout de bouton pour paramétrer le retour des changements d'état par push.
