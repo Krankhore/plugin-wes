@@ -5,9 +5,9 @@
     <description>Plugin pour gerer les cartes WES</description>
     <icon>fa fa-sitemap</icon>
     <licence>AGPL</licence>
-    <author>Thomas Guenneguez adapté par Krankhore</author>
+    <author>Thomas Guenneguez Krankhore</author>
     <installation>Nécessite firmware 0.83h minimum</installation>
-    <require>4.0</require>
+    <require>3.0</require>
     <version>2.0</version>
     <category>automation protocol</category>
     <hasOwnDeamon>1</hasOwnDeamon>
