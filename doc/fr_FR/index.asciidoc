@@ -10,7 +10,7 @@ Initialement, ce plugin a été créé pour connecter les WES.
 * '''les compteurs d'impulsions'''
 * '''les pinces ampère-métriques'''
 * '''les téléinfos'''
-* '''les entrées analogiquess'''
+* '''les entrées analogiques'''
 
 == Installation/Paramétrage ==
 Nous allons maintenant paramétrer un équipement. Pour se faire, cliquer sur '''Plugins / Protocole domotique / wes'''
