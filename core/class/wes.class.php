@@ -294,7 +294,7 @@ class wes extends eqLogic {
 		
 		$cmd = $this->getCmd(null, 'status');
 		if ( ! is_object($cmd) ) {
-			log::add('wes','debug','Creation tension ');
+			log::add('wes','debug','Creation status');
 			$cmd = new wesCmd();
 			$cmd->setName('Etat');
 			$cmd->setEqLogic_id($this->getId());
